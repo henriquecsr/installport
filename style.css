@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+    --first-color: #F9F7F7;
+    --second-color: #112D4E;
+    --third-color: #DBE2EF;
+    --fourth-color: #545454;
+}
+
+body {
+    background-color: var(--first-color);
+    color: var(--fourth-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-background {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    box-shadow: inset 0 0 0 1000px rgba(10, 38, 71, .9);
+    margin-bottom: 12%;
+}
+
+.logo-img {
+    width: 25%;
+    min-width: 200px;
+    padding-bottom: 1%;
+}
+
+#home {
+    padding: 1% 15% 5%;
+}
+
+a.navbar-brand {
+    display: contents;
+}
+
+.nav-link:hover {
+    color: var(--third-color);
+} 
+
+.navbar-toggler {
+    padding: 0.35rem 0.5rem;
+}
+
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.carousel {
+    margin: 1%;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+    height:75vh;
+}
+
+.product-container {
+    padding: 0 20% 7%;
+}
+
+.product-image {
+    width: 45%;
+    margin: 1rem;
+}
+
+.product-text {
+    font-size: 1.25rem;
+}
+
+.brand-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+
+.brand-list {
+    list-style-type: none;
+    margin-bottom: 5%;
+}
+
+.brand-image {
+    width: 75%;
+}
+
+#services {
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 7% 15% 5%;
+}
+
+.services-img {
+    width: 100%;
+}
+
+.services-text {
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 5% 0;
+}
+
+#contact {
+    padding: 7% 15% 3%;
+    color: var(--second-color);
+}
+
+.shop-text {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--fourth-color);
+}
+
+.shop-img {
+    width: 30%;
+    margin: 3%;
+}
+
+.h2-text {
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.70rem;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.contact-icon {
+    font-size: 1.8rem;
+    vertical-align: -0.125rem;
+}
+
+.contact-container {
+    padding: 5%;
+}
+
+.contact-text {
+    font-size: 1.40rem;
+}
+
+.btn {
+    margin-top: 3%;
+}
+
+#footer {
+    background-color: var(--third-color);
+}
+
+.footer-container {
+    padding: 3% 3% 2%;
+    font-size: 0.9rem;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: var(--second-color);
+    margin: 5%;
+}
+
+@media (max-width: 990px) {
+    #home {
+        padding: 1% 8% 7%;
+    }
+}
+
+@media (max-width: 400px) {
+    #home {
+        padding: 1% 4% 7%;
+    }
+}
